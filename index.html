@@ -1,0 +1,574 @@
+<html>
+	<title>welcome</title>
+	<style type="text/css">
+		body{
+		background:white no-repeat center fixed;
+		}
+		#mainarea{
+			width:1400px;
+			height:1850px;
+			background:white;
+			margin:0 auto;
+			}
+		#manuarea{
+			width:1400px;
+			height:40px;
+			background:white;
+			border:solid 1px black;
+			float:left;
+			}
+		#manu1area{
+			width:120px;
+			height:100px;
+			margin-left:40px;
+			border-right:solid 1px black;
+			border-left:solid 1px black;
+			float:left;
+			text-align:center;
+			}
+		#manu1area p{
+				margin-top:7px
+			}
+		#manu1area p:hover{
+				color:white;
+				background:black;
+			}
+		#manu2area{
+				width:180px;
+				height:100%;
+				float:left;
+				text-align:center;
+			}
+		#manu2area p{
+				margin-top:7px;
+			}
+		#manu2area p:hover{
+				color:white;
+				background:black;
+			}
+		#manu3area{
+			width:50px;
+			height:100%;
+			margin-left:40px;
+			border-right:solid 1px black;
+			float:left;
+			}
+		#manu4area{
+			width:100px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#manu4area{
+				margin-top:7px;
+				margin-left:5px;
+
+			}
+		#manu4area p{
+				margin-top:7px;
+			}
+		#manu5area{
+			width:50px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#manu6area{
+			width:50px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#manu7area{
+			width:50px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#manu8area{
+			width:50px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#manu9area{
+			width:300px;
+			height:100%;
+			border-right:solid 1px black;
+			float:right;
+			}
+		#toparea{
+			width:1400px;
+			height:200px;
+			background:white;
+			float:left;
+			}
+		
+		#top1area{
+			width:150px;
+			height:150px;
+			background:white;
+			float:left;
+			margin-top:20px;
+			
+			}
+		#top2area{
+			width:900px;
+			height:200px;
+			background:white;
+			float:right;
+			}
+		#top3area{
+			width:300px;
+			height:200px;
+			background:white;
+			float:left;
+			}
+		
+		#goldarea{
+			width:1400px;
+			height:60px;
+			background:black;
+			float:left;
+			}
+		#goldarea ul{
+				list-style:none;
+				margin-left:100px;
+				margin-bottom:6px;
+			}
+		#goldarea ul li{
+				float:left;
+				border:solid 1px red;
+				 
+				}
+		#goldarea ul li a:link,#goldarea ul li a:visited{
+				color:white;
+				text-decoration:none;
+				 background:black;
+				diplay:block;
+				text-align:center;
+				 
+				 padding:20px 30px;
+				font:bold 14px arial;
+				
+				 
+				
+			}
+		#goldarea ul li a:hover{
+						color:white;
+						background:black;
+					}
+		#goldarea ul li:last-child a:link,#goldarea ul li:last-child a:visited{
+								border:none;
+						}
+		#goldarea ul li ul{
+					display:none;
+					margin-left:-40px;
+					margin-top:25px;
+					height:25px;
+					 
+				}
+		#goldarea ul li ul li{
+					float:none;
+					 padding:20px 0px;
+					background:black;
+					font-size:8px;
+				}
+		#goldarea ul li:hover ul{
+					display:block;
+					position:absolute;
+					z-index:1000;
+					 
+					
+					}
+		 
+		#goldarea ul li:hover ul li a:link,#goldarea ul li:hover ul li a:visited{
+								border:none;
+								font-size:11px;
+								
+							
+					}
+		#slidearea{
+			width:1400px;
+			height:400px;
+			background:blue;
+			float:left;
+			}
+		
+		
+		#boxarea{
+			width:1400px;
+			height:500px;
+			background:yellow;
+			float:left;
+			background-image:url('56.jpg');
+			}
+		#gpa{
+			width:100%;
+			height:100%;
+			background:rgba(255,255,255,0.7);
+			}
+		#box1area{
+			width:350px;
+			height:400px;
+			background:white;
+			float:left;
+			margin-top:50px;
+			margin-left:100px;
+			border-radius:50px 0px 50px 0px;
+			
+			}
+		#box2area{
+			width:350px;
+			height:400px;
+			background:white;
+			float:left;
+			margin-top:50px;
+			margin-left:100px;
+			border-radius:50px 0px 50px 0px;
+			
+			}
+		#box3area{
+			width:350px;
+			height:400px;
+			background:white;
+			float:left;
+			margin-top:50px;
+			margin-left:100px;
+			border-radius:50px 0px 50px 0px;
+			}
+		#box1area h2{
+				text-align:center;
+				color:red;
+				}
+			
+		#box1area h2:hover{
+				color:blue;
+				background:black;
+				}
+		#box2area h2{
+				text-align:center;
+				color:red;
+				}
+			
+		#box2area h2:hover{
+				color:blue;
+				background:black;
+				}
+		#box3area h2{
+				text-align:center;
+				color:red;
+				}
+			
+		#box3area h2:hover{
+				color:blue;
+				background:black;
+				}
+		
+		#box3area img{
+					width:350px;
+					height:300px;
+					border-radius:50px 0px 50px 0px;
+					
+				}
+		#box2area img{
+					width:350px;
+					height:300px;
+					border-radius:50px 0px 50px 0px;
+					 
+				}
+		#box1area img{
+					width:350px;
+					height:300px;
+					border-radius:50px 0px 50px 0px;
+					 
+				}
+		#footerarea{
+			width:1400px;
+			height:500px;
+			background:white;
+			float:left;
+			}
+		#footer1area{
+			width:300px;
+			height:400px;
+			background:#CBDCAD;
+			float:left;
+			margin-left:50px;
+			margin-top:50px;
+			border-radius:50px 0px 50px 0px;
+			}
+		#footer1area ul{
+				color:white;
+			}
+		#footer1aarea{
+			width:300px;
+			height:40px;
+			background:black;
+			float:left;
+			border-radius:50px 0px 50px 0px;
+			
+			}
+		#footer1aarea p{
+				font: bold 20px Geneva;
+				color:white;
+				text-align:center;
+				margin-top:10px;
+				
+				}
+		
+		
+		#footer2area{
+			width:300px;
+			height:400px;
+			background:#A20327;
+			float:left;
+			margin-left:50px;
+			margin-top:50px;
+			border-radius:50px 0px 50px 0px;
+			}
+		#footer2area ul{
+				color:white;
+			}
+		#footer2aarea{
+			width:300px;
+			height:40px;
+			background:black;
+			float:left;
+			border-radius:50px 0px 50px 0px;
+			
+			}
+		#footer2aarea p{
+				font: bold 20px Geneva;
+				color:white;
+				text-align:center;
+				margin-top:10px;
+				}
+		#footer3area{
+			width:600px;
+			height:400px;
+			background:pink;
+			float:left;
+			margin-left:80px;
+			margin-top:50px;
+			}
+		
+		#bgarea{
+			width:1400px;
+			height:50px;
+			background:pink;
+			float:left;
+			}
+		#bgarea p{
+			font:bold 20px monospace;
+			color:white;			
+			}
+		
+		#brarea{
+			width:1400px;
+			height:50px;
+			background:red;
+			float:left;
+			}
+		
+		#brarea p{
+			font:bold 20px monospace;
+			color:white;			
+			}
+		
+	</style>
+	<body>
+		<div id="mainarea">
+			<div id="manuarea">
+				<div id="manu1area">
+					<p>बिहार सरकार</p>
+				</div>
+				<div id="manu2area">
+					<p>GOVERMENT OF BIHAR</p>
+				</div>
+				<div id="manu3area">
+					<p></p>
+				</div>
+				<div id="manu4area">
+					<p>ENGLISH</p>
+				</div>
+				<div id="manu5area">
+					<img src="p1.png"/>
+				</div>
+				<div id="manu6area">
+					<img src="p2.png"/>
+				</div>
+				<div id="manu7area">
+					<img src="p3.png"/>
+				</div>
+				<div id="manu8area">
+					<img src="p4.png"/>
+				</div>
+				<div id="manu9area">
+					<p><b><a href="#">SKIP TOP MAIN CONTACT</a><b/></p>
+				</div>
+				
+			</div>
+			<div id="toparea">
+				<div id="top1area">
+					<img src="bg1.png"/>
+					<p><b></b></P>
+				</div>
+				<div id="top3area">
+					<p>जिला औरंगाबाद</p>
+					<p><b>DISTRICTS AURANGABAD</b></P>
+				</div>
+				<div id="top2area">
+					<img src="bg2.png"/>
+				</div>
+			</div>
+			<div id="goldarea">
+				<ul>
+					<li><a href="#">HOME ↓</a></li>
+					<li><a href="#">ABOUT DISTRICT ↓</a>
+						<ul>
+							<li><a href="#">HISTORY</a></li>
+							<li><a href="#">MAP OF DISTRICT</a></li>
+							<li><a href="#">ADMINISTRATIVE SETUP</a></li>
+							<li><a href="#">DEMOGAPHY</a></lI>
+							<li><a href="#">ECONOMY</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="#">DEPARTMENTS ↓</a>
+						<ul>
+							<li><a href="#">DISATER MANAGEMENT</a></li>
+							<li><a href="#">HELPLINE</a> </li>
+							<li><a href="#">STD&PIN CODE</a> </li>
+							<li><a href="#">PUBLIC </a></lI>
+							
+							
+						</ul>
+					</li>
+					<li><a href="#">ASSEMBLY ELECTION 2020 ↓</a>
+						<ul>
+							<li><a href="">EDUCATION</a></li>
+							<li><a href="#">ELECTION</a></li>
+							
+							
+							
+						</ul>
+					</li>
+					<li><a href="#">TOURISM ↓</a></li>
+					<li><a href="#">DOCUMENT ↓</a>
+						<ul>
+							<li><a href="#">HOW TO REACH</a></li>
+							<li><a href="#">PLACES OF INTEREST</a></li>
+							<li><a href="#">ACCOMMODATION(HOTEL/RESOT/DHORAMSAT)</a></li>
+							<li><a href="#">TURIEST PLACES</a></li>
+
+						</ul>
+					</li>
+					<li><a href="#">NOTICE ↓</a></li>
+				</ul>
+			</div>
+			<div id="slidearea">
+				<img src="top1.png"/>
+			</div>
+			<div id="boxarea">
+				<div id="box1area">
+					<img src="bg21.jpg"/>
+					<h2>SUSHIL KUMAR SINGH <br>MEMBER OF PARLIAMENT (AURANGABAD)</h2>
+					
+				</div>
+				<div id="box2area">
+					<img src="bg22.jpg"/>
+					<h2>NITISH KUMAR<br>CHIEF MINISTER (BIHAR)</h2>
+				</div>
+				<div id="box3area">
+					<img src="bg33.jpg"/>
+					<h2>TEJASHWI YADAV<br>DEPUTY CHIEF MINISTER  <br>(BIHAR)</h>
+				</div>
+				<div id="gpa">
+				</div>
+			</div>
+			<div id="footerarea">
+				
+					<div id="footer1area">
+						<div id="footer1aarea">
+							<p>BLOCK</p>
+								<marquee direction="up" width="100%" height="340px" onmouseover="this.stop()" onmouseout="this.start()">
+							<ul type="i">
+
+								<li>RAFIGANJ</li>
+								<li>NABINAGAR</li>
+								<li>AURANGABAD</li>
+								<li>GOH</li>
+								<li>KUTUMBA</li>
+								<li>BRA</li>
+								<li>MADANPUR</li>
+								<li>DAUDNAGAR</li>
+								<li>BARUN</li>
+								<li>DEO</li>
+								<li>HASPUR</li>
+							</ul>
+							</marquee>
+						</div>
+							
+					</div>
+					<div id="footer2area">
+							<div id="footer2aarea">
+								<p>POLICE STATION</p>
+								<marquee direction="up" width="100%" height="340px"  onmouseover="this.stop()" onmouseout="this.start()">
+								<ul type="i">
+									
+
+								<li>PHESAR</li>
+								<li>AMBA</li>
+								<li>BARUN</li>
+								<li>SIMRA</li>
+								<li>NTPC KHAIRA</li>
+								<li>DAUDNAGAR</li>
+								<li>NARARIKALA KHURD</li>
+								<li><DEOKUND</li>
+								<li>DEV</li>
+								<li>DIBHRA</li>
+								<li>KHUDWA</li>
+								<li>HASPUR</li>
+								<li>JAMHAUR</li>
+								<li>BADYA</li>
+								<li>BADEM O.P</li>
+								<li>KASMA</li>
+								<li>MAHILA</li>
+								<li>SC/ST</li>
+								<li>KUTUMBA</li>
+								<li>MADANPUR</li>
+								<li>MALI</li>
+								<li>MUFASSIL</li>
+
+								<li>NAVI NAGAR</li>
+								<li>OBARA</li>
+								<li>PUTHU</li>
+								<li>RAFIGANJ</li>
+								<li>SALAIYA</li>
+								<li>TANDWA</li>
+								<li>TOWN</li>
+								<li>UPHARA</li>
+							</ul>
+							</marquee>
+							</div>
+							
+					</div>
+					<div id="footer3area">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28985.28902375344!2d84.36083737253254!3d24.755664032603978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398cfc35b57ffe31%3A0xffea2031cb937478!2sAurangabad%2C%20Bihar!5e0!3m2!1sen!2sin!4v1663401576609!5m2!1sen!2sin" width="600px" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+			</div>
+			<div id="bgarea">
+				<marquee>
+				<p><a href="https://aurangabad.bih.nic.in/">Go to official website AURANGABAD</a></p>
+				</marquee>
+			</div>
+			<div id="brarea">
+				<marquee>
+				<p>DEVELOPED BY:- KUNAL SINGH</p>
+				</marquee>
+			</div>
+			
+		</div>
+	</body>
+</html>
